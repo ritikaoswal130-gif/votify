@@ -66,6 +66,8 @@ if (userType === "registered") {
   showVotingSteps();
 }
 
+
+
 3. Step-Based Guidance
 
 Each flow consists of structured steps:
@@ -74,27 +76,23 @@ Step number
 Title
 Explanation
 Actionable instruction
+
 4. Timeline Representation
-
 Users can view:
-
 Registration period
 Voting day
 Result announcement
-5. Readiness Tracker
 
+5. Readiness Tracker
 At the end of the journey, users are evaluated:
 Registered
 Know polling booth
 Understand process
 
 Status is shown as:
-
 Ready to Vote / Not Ready
 
-
 🤖 Google AI Integration
-
 Votify integrates Google Gemini API to enhance usability.
 
 Feature:
@@ -105,7 +103,7 @@ Provides simplified explanations for better understanding
 Frontend: React + Vite
 Logic Layer: JavaScript (decision engine using objects and arrays)
 AI Integration: Google Gemini API
-Deployment: Firebase Hosting
+Deployment: Netlify
 Version Control: GitHub
 
 🧱 Project Structure
@@ -124,12 +122,13 @@ src/
 │
 ├── App.jsx
 
+
 🔄 How It Works
 User selects their current situation
-System determines appropriate flow
+The system determines the appropriate flow
 Steps are displayed dynamically
 User follows step-by-step guidance
-Optional AI explanation improves clarity
+An optional AI explanation improves clarity
 Final readiness status is shown
 
 ⚠️ Assumptions
@@ -167,3 +166,5 @@ Real-time polling booth locator
 Multi-language support
 Voice-based assistant
 Progress saving
+
+
